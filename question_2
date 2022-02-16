@@ -1,0 +1,17 @@
+#2
+number = int(input())
+n1 = 0
+n2 = 1
+n3 = 0
+
+
+while(number > n3):
+  n3 = n1+n2
+  n1 = n2
+  n2 = n3
+
+if number == 0 or number == n3:
+  number = str(number)
+  print("O número " + number + " pertence à sequência Fibonacci")
+else:
+  print("O número digitado não faz parte da sequência de Fibonacci")
