@@ -1,0 +1,12 @@
+#5
+string = input()
+reverse=[]
+size=len(string)
+
+while size > 0:
+  reverse += string[ size - 1]
+  size = size - 1
+
+reverse=''.join(reverse)
+
+print(reverse)
